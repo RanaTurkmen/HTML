@@ -1,0 +1,22 @@
+*{
+    color: coral;
+    background-color: rgb(163, 202, 202);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: lowercase;
+
+}
+
+h2{
+    color: rgb(202, 15, 77) !important;
+    font-size: larger !important;
+    background-color: azure;
+
+}
+
+.h2-class{
+    color: rgb(145, 78, 39) !important;
+}

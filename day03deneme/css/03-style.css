@@ -1,0 +1,21 @@
+h3{
+    color: chocolate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: blanchedalmond;
+}
+
+
+p{
+    color: steelblue;
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.span-class{
+    color: black;
+    background-color: crimson;
+    font-size: larger;
+
+}

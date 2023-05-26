@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form yapısı</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+
+    <form action="post" method="users/update">
+      Adı: <br />
+      <input type="text" name="firstname" /><br />
+
+      <label for="name"> Firstname </label><br />
+      <input type="text" id="name" /><br />
+
+      Soyadı:<br />
+      <input type="text" name="lastname" /><br />
+
+      <label for="lastname">lastname</label><br />
+      <input type="text" id="lastname" /><br />
+
+      <label for="nickName"> Nick name</label><br />
+      <input type="text" id="nickName" /><br />
+
+      <label for="email"> Email</label> <br />
+      <input type="email" id="email" /><br />
+
+      <label for="şifre">Şifrenizi giriniz</label><br />
+      <input type="password" id="şifre" /><br />
+
+      <label for="birtday">Doğum tarihinizi girin</label> <br />
+      <input type="date" id="birtday" /> <br />
+
+      <label for="Cinsiyet">Cinsiyeti girin</label> <br />
+
+      <input type="radio" name="cinsiyet" id="kadin" />
+      <label for="kadin">Kadin</label>
+
+      <input type="radio" name="cinsiyet" id="erkek" />
+      <label for="erkek">Erkek</label>
+
+      <input type="radio" name="cinsiyet" id="Belirtmek istemiyorum" />
+      <label for="Belirtmek istemiyorum">Belirtmek istemiyorum</label><br />
+
+      <label for="telefon"> Telefon numaranızı girin</label> <br />
+      <input type="number" id="telefon" /><br />
+
+      <label for="adress">Adresinizi girin</label> <br />
+      <textarea name="" id="" cols="30" rows="5"></textarea> <br />
+
+      <label for="hobby">Hobylerinizi girin</label> <br />
+
+      <input type="checkbox" name="hobby" id="hobby" />
+      <label for="hobby">Seyehat etmek</label> &nbsp;
+
+      <input type="checkbox" name="hobby" id="hobby" />
+      <label for="hobby">Gokyuzune bakmak</label> &nbsp;
+
+      <input type="checkbox" name="hobby" id="hobby" />
+      <label for="hobby">Tenis oynamak</label> &nbsp; <br />
+
+      <label for="renk">Bir renk seçin</label> &nbsp; <br />
+      <input type="color" id="renk" /> <br />
+
+      <label for="aralik">Bir aralik seçin </label> <br />
+      <input type="range" step="10" id="aralik" /> <br />
+
+      <label for="CV">CV nizi yükleyin</label> <br />
+      <input type="file" id="CV" /> <br />
+      <br />
+
+      <label for="saat">Giriş saatinizi seçin</label> <br />
+      <input type="time" id="saat" /> <br />
+      <br />
+
+      <select name="sehir" id="" sehir>
+        <option disabled selected value="">Doğum yerinizi girin</option>
+        <option value="1">Ankara</option>
+        <option value="2">Kocaeli</option>
+        <option value="3">İstanbul</option>
+        <option value="4">İzmir</option>
+        <option value="5">Çorum</option>
+      </select><br><br>
+      <label for="">Görüş ve önerilerinizi giriniz.</label> <br/><br>
+      <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+
+      <input type="button" value="button">
+      <input type="submit" value="Gonder">
+      <input type="reset" value="Temizle">
+    </form>
+  </body>
+</html>
