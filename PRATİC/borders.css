@@ -1,0 +1,51 @@
+.c1{
+color: blueviolet;
+background-color: blanchedalmond;
+text-align: center;
+padding: 30px;
+margin: 30;
+border: 5px solid;
+border-radius: 26px;
+
+
+}
+
+h2.c2{
+color: chartreuse;
+background-color: beige;
+text-align: center;
+font-size: medium;
+font-weight: 800;
+border: 5px dotted darkblue;
+border-radius: 30px;
+
+
+}
+
+
+h3{
+    border: 6px solid red;
+    border-radius: 45px;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 30px;
+    margin: 45px;
+
+
+    
+}
+
+h4{
+color: deeppink;
+background-color: beige;
+font-size: small;
+border-top: 5px solid rebeccapurple;
+border-bottom: 5px solid red;
+padding: 45px;
+margin: 30px;
+border-radius: 25px;
+text-align: center;
+
+
+}
+

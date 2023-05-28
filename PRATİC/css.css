@@ -1,0 +1,22 @@
+h1{
+    color: blue;
+    background-color: brown;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+p{
+    color: crimson;
+    background-color: bisque;
+    font-size: small;
+}
+
+
+.p1{
+    color: darkslateblue;
+    background-color: burlywood;
+    text-decoration: underline;
+}
